@@ -10,8 +10,10 @@ Cinema 4D 插件管理器.
 [Github（国外源）](https://github.com/DunHouGo/c4dplugin_PluginManager/archive/refs/heads/master.zip)
 
 # Install--安装
-- 解压文件夹,复制到C4D的plugin文件夹下
+- 下载Zip,打开C4D的配置文件夹plugin文件夹(Ctrl+E打开)
 > %AppData%\Maxon\Maxon Cinema 4D R2x_xxxxxxxx\plugins
+- 新建文件夹命名为Boghma
+- 将c4dplugin_PluginManager文件夹拖入Boghma文件夹中解压,去掉后缀-master (或者-main)
 
 # Main Functions--主要功能
 
