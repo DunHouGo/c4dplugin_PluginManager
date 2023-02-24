@@ -1,8 +1,13 @@
-# Plugin Manager
-Cinema 4D 插件管理器.
+# Plugin Manager使用文档
+### Cinema 4D 插件管理器
 
-> 当前版本 ：1001
+<aside>
+🔒 当前版本 ：1003
+
+</aside>
+
 # Download--下载
+
 [BOGHMA 社区下载](https://community.boghma.com/)
 
 [Gitee（国内源）](https://gitee.com/DunHouGo/c4dplugin_PluginManager/repository/archive/master.zip)
@@ -10,10 +15,18 @@ Cinema 4D 插件管理器.
 [Github（国外源）](https://github.com/DunHouGo/c4dplugin_PluginManager/archive/refs/heads/master.zip)
 
 # Install--安装
-- 下载Zip,打开C4D的配置文件夹plugin文件夹(Ctrl+E打开)
-> %AppData%\Maxon\Maxon Cinema 4D R2x_xxxxxxxx\plugins
-- 新建文件夹命名为Boghma
-- 将c4dplugin_PluginManager文件夹拖入Boghma文件夹中解压,去掉后缀-master (或者-main)
+
+解压文件夹,复制到C4D的plugin文件夹下
+
+保留Boghma文件夹，不要更改文件名称和结构
+
+> `%AppData%\Maxon\Maxon Cinema 4D R2x_xxxxxxxx\plugins\CINEMA 4D R2x\plugins\Boghma`
+> 
+
+<aside>
+⚠️ 不要更改文件夹结构和名称，会导致插件报错
+
+</aside>
 
 # Main Functions--主要功能
 
@@ -21,8 +34,6 @@ Cinema 4D 插件管理器.
 - 管理插件，可以查看插件信息，帮助等
 - 在线更新插件（Github源）
 - 手动更新插件（可在首选项中选择Github源或Gitee源）
-- 自定义控制台，用来查看报错和插件信息
-- 自我更新
 
 # How to use--使用
 
@@ -36,7 +47,11 @@ Cinema 4D 插件管理器.
 # Notes--注意事项
 
 - 点击检查更新，会卡顿几秒（时长根据网络情况）
-- 可以在首选项中更改 **时间间隔（即timeout）**，默认为3，建议保持默认
+- 可以在首选项中更改 **时间间隔（即timeout）**，默认为2，建议保持默认（共循环三次）
 - 自动更新需要网络能够访问Github，根据网速可能花费时长不一样
 - 手动更新可以在首选项中更改默认更新源
 - 手动更新下载的压缩包去除（-main，-master）后缀
+
+# Video --视频教程
+
+[【C4D】灯光独显插件 Light Solo_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1t14y1e74K/?spm_id_from=333.999.0.0&vd_source=88c67ea610feb373c8beb4e2262386ca)
