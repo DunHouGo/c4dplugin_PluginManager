@@ -2,7 +2,7 @@
 ### Cinema 4D 插件管理器
 
 <aside>
-🔒 当前版本 ：1003
+🔒 当前版本 ：1004
 
 </aside>
 
@@ -20,7 +20,7 @@
 
 保留Boghma文件夹，不要更改文件名称和结构
 
-> `%AppData%\Maxon\Maxon Cinema 4D R2x_xxxxxxxx\plugins\CINEMA 4D R2x\plugins\Boghma`
+> `%AppData%\Maxon\Maxon Cinema 4D R2x_xxxxxxxx\plugins\Boghma`
 > 
 
 <aside>
